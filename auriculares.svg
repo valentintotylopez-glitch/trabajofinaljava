@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">
+  <rect width="600" height="420" fill="#eff6ff"/>
+  <path d="M180 180c0-70 50-120 120-120s120 50 120 120v60h-80v-60c0-26-18-46-40-46s-40 20-40 46v60h-80v-60Z" fill="#1e293b"/>
+  <rect x="145" y="195" width="60" height="120" rx="25" fill="#1d4ed8"/>
+  <rect x="395" y="195" width="60" height="120" rx="25" fill="#1d4ed8"/>
+  <rect x="175" y="290" width="230" height="24" rx="12" fill="#60a5fa"/>
+  <text x="300" y="95" text-anchor="middle" font-size="22" font-family="Arial, sans-serif" fill="#1d4ed8" font-weight="700">Auriculares</text>
+</svg>

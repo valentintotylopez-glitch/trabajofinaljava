@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">
+  <rect width="600" height="420" fill="#ebf2ff"/>
+  <rect x="90" y="130" width="420" height="190" rx="20" fill="#111827"/>
+  <rect x="120" y="160" width="60" height="32" rx="8" fill="#dbeafe"/>
+  <rect x="195" y="160" width="60" height="32" rx="8" fill="#dbeafe"/>
+  <rect x="270" y="160" width="60" height="32" rx="8" fill="#dbeafe"/>
+  <rect x="345" y="160" width="60" height="32" rx="8" fill="#dbeafe"/>
+  <rect x="420" y="160" width="60" height="32" rx="8" fill="#dbeafe"/>
+  <rect x="130" y="205" width="55" height="32" rx="8" fill="#93c5fd"/>
+  <rect x="200" y="205" width="55" height="32" rx="8" fill="#93c5fd"/>
+  <rect x="270" y="205" width="55" height="32" rx="8" fill="#93c5fd"/>
+  <rect x="340" y="205" width="55" height="32" rx="8" fill="#93c5fd"/>
+  <rect x="410" y="205" width="55" height="32" rx="8" fill="#93c5fd"/>
+  <rect x="185" y="250" width="230" height="34" rx="12" fill="#60a5fa"/>
+  <text x="300" y="100" text-anchor="middle" font-size="24" font-family="Arial, sans-serif" fill="#1d4ed8" font-weight="700">Teclado</text>
+</svg>

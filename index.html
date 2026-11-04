@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TecnoSpot</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand-wrap">
+        <div class="logo">T</div>
+        <div>
+          <p class="eyebrow">Tecnología al alcance</p>
+          <h1>TecnoSpot</h1>
+        </div>
+      </div>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#ofertas">Ofertas</a>
+        <a href="#soporte">Soporte</a>
+        <a href="#nosotros">Nosotros</a>
+      </nav>
+
+      <button class="cart-toggle" id="cartToggle" type="button" aria-label="Abrir carrito">
+        <span>Carrito</span>
+        <span class="cart-badge" id="cartBadge">0</span>
+      </button>
+    </header>
+
+    <section class="search-panel" aria-labelledby="searchTitle">
+      <h2 id="searchTitle" class="sr-only">Buscar productos</h2>
+      <div class="search-box">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Buscar por nombre o descripción..."
+          aria-label="Buscar productos"
+        >
+        <button id="clearSearch" class="secondary-btn" type="button">Limpiar</button>
+      </div>
+    </section>
+
+    <main class="page">
+      <aside class="sidebar">
+        <h2>Categorías</h2>
+        <div class="category-list" id="categoryList">
+          <button class="category-btn active" data-category="all" type="button">Todos</button>
+          <button class="category-btn" data-category="Laptops" type="button">Laptops</button>
+          <button class="category-btn" data-category="Monitores" type="button">Monitores</button>
+          <button class="category-btn" data-category="Periféricos" type="button">Periféricos</button>
+          <button class="category-btn" data-category="Audio" type="button">Audio</button>
+          <button class="category-btn" data-category="Accesorios" type="button">Accesorios</button>
+        </div>
+      </aside>
+
+      <section class="catalog" id="catalogo">
+        <div class="section-header">
+          <h2>Productos destacados</h2>
+          <span id="resultsCount">0 productos</span>
+        </div>
+        <div id="productGrid" class="product-grid"></div>
+      </section>
+
+      <aside class="cart-panel" id="cartPanel" aria-label="Carrito de compras">
+        <div class="cart-header">
+          <h2>Carrito</h2>
+          <button id="closeCart" type="button" class="close-btn" aria-label="Cerrar carrito">×</button>
+        </div>
+
+        <div id="cartItems" class="cart-items"></div>
+
+        <div class="cart-summary">
+          <div class="total-row">
+            <span>Subtotal</span>
+            <strong id="cartSubtotal">$0</strong>
+          </div>
+          <button id="checkoutButton" class="checkout-btn" type="button">Finalizar compra</button>
+        </div>
+      </aside>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

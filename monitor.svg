@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420">
+  <defs>
+    <linearGradient id="bg2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#dfe9ff"/>
+      <stop offset="100%" stop-color="#cdd7ef"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="420" fill="url(#bg2)"/>
+  <rect x="120" y="90" width="360" height="210" rx="14" fill="#0f172a"/>
+  <rect x="150" y="120" width="300" height="150" rx="8" fill="#1d4ed8" opacity="0.9"/>
+  <rect x="210" y="300" width="180" height="18" rx="9" fill="#d1d5db"/>
+  <rect x="260" y="318" width="80" height="30" rx="10" fill="#b5c3d9"/>
+  <text x="300" y="90" text-anchor="middle" font-size="24" font-family="Arial, sans-serif" fill="#0f172a" font-weight="700">Monitor</text>
+</svg>
